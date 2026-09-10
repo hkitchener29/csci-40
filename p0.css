@@ -1,0 +1,48 @@
+table, th, td{
+    padding: 12px;
+    border: 2px solid black;
+}
+table{
+    border-collapse: collapse;
+}
+
+.good_morning{
+    background-color: rgb(245, 227, 190);
+    padding: 10px;
+}
+
+#table{
+    background-color:lightblue;
+    color: navy;
+    width: 43%;
+
+}
+
+h1{
+    color:navy;
+    text-align: center;
+}
+
+.time{
+        font-weight: bold;
+    
+}
+
+main > p{
+    font-style: italic;
+}
+
+a{
+    color: purple;
+}
+
+a:hover{
+    color: red;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size-adjust: .75;
+    }
+}

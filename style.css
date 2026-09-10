@@ -1,0 +1,24 @@
+.title{
+    color:navy;
+    text-align: center;
+}   
+
+p{
+    color: rgb(250, 160, 175);
+}
+
+#list{
+    background-color:aquamarine;
+    width: 43%;
+}
+
+a:hover{
+    color: red;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        font-size-adjust: .75;
+    }
+}
